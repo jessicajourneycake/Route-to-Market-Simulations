@@ -30,4 +30,29 @@ The UI for Product & Sales Managers is used to automate and analyze sales pipeli
 
 ## Quickstart Guide
 
+1. Install Python for appropriate platform (macOS, Windows): https://www.python.org/downloads/
+
+2. Install pip
+```Shell
+python3 -m ensurepip
+```
+3. Install Jupyter Notebooks
+```Shell
+pip3 install jupyterlab
+```
+4. Clone Repository. Project folder will appear on your Desktop. 
+```Shell
+pip3 install -r requirements.txt
+```
+5. Install Visual Studio
+```Shell
+pip3 install -r requirements.txt
+```
+6. Open project in Visual Studio
+On the Visual Studio menu bar, choose File > Open > Folder, and then browse to the project folder location on your Desktop.
+8. Install Requirements 
+```Shell
+pip3 install -r requirements.txt
+```
+9. Load Excel Spreadsheets into "Data" folder. 
 
