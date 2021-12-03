@@ -7,7 +7,7 @@ This repository is a tool for Sales or Product managers to automate and analyze 
 
 
 ## Problem Statement
-A Go-to-Market model needs to be designed as an integrated system inclusive of considerations across marketing, business development, sales and business partners.  This requires a deep understanding of sales, marketing, offering and competitive issues that will impact the sales and marketing pipeline.  These insights are in the existing and historical pipeline data, but the data is often in an unstructed format (i.e. Excel Spreadsheets, Weekly Reports).
+A Go-to-Market model needs to be designed as an integrated system inclusive of considerations across marketing, business development, sales and business partners.  This requires a deep understanding of sales, marketing, offering and competitive issues that will impact the sales and marketing pipeline.  These insights are in the existing and historical pipeline data, but the data is often in an unstructed format (*i.e.,* Excel Spreadsheets, Weekly Reports).
 
 
 ## The Idea
