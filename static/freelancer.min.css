@@ -1,0 +1,258 @@
+/*!
+ * Start Bootstrap - Freelancer v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
+ */
+body {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+ab {
+    padding: 10px;
+
+}
+
+
+p {
+    font-size: 20px
+}
+
+p.small {
+    font-size: 16px
+}
+
+a, a.active, a:active, a:focus, a:hover {
+    color: #18bc9c;
+    outline: 0
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+hr.star-light, hr.star-primary {
+    max-width: 250px;
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 5px
+}
+
+hr.star-light:after, hr.star-primary:after {
+    font-family: FontAwesome;
+    font-size: 2em;
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 .25em;
+    content: '\f005'
+}
+
+hr.star-light {
+    border-color: #000000
+}
+
+hr.star-light:after {
+    color: #000000;
+    background-color: #D2E0E3;
+}
+
+hr.star-primary {
+    border-color: #88D8D0
+}
+
+hr.star-primary:after {
+    color: #88D8D0;
+    background-color: #000000
+}
+
+.img-centered {
+    margin: 0 auto
+}
+
+section {
+    padding: 100px 0
+}
+
+section h2 {
+    font-size: 3em;
+    margin: 0
+}
+
+section.success {
+    color: #000000;
+    background: #D2E0E3
+}
+
+@media (max-width: 767px) {
+    section {
+        padding: 75px 0
+    }
+
+    section.first {
+        padding-top: 75px
+    }
+}
+
+.scroll-top {
+    position: fixed;
+    z-index: 1049;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px
+}
+
+.scroll-top .btn {
+    font-size: 16px;
+    line-height: 28px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100%
+}
+
+.scroll-top .btn:focus {
+    outline: 0
+}
+
+#mainNav {
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    background: #88D8D0
+}
+
+#mainNav a:focus {
+    outline: 0
+}
+
+#mainNav .navbar-brand {
+    font-size: 1.1rem;
+    color: #000000
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #000000
+}
+
+#mainNav .navbar-nav {
+    letter-spacing: 1px
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: #000000
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #D2E0E3;
+    outline: 0
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+    color: #000000
+}
+
+#mainNav .navbar-toggler {
+    font-size: 14px;
+    padding: 11px;
+    text-transform: uppercase;
+    color: #000000;
+    border-color: #000000
+}
+
+#mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
+    color: #000000;
+    border-color: #D2E0E3;
+    background-color: #D2E0E3
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        -webkit-transition: padding-top .3s, padding-bottom .3s;
+        -moz-transition: padding-top .3s, padding-bottom .3s;
+        transition: padding-top .3s, padding-bottom .3s
+    }
+
+    #mainNav .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s
+    }
+
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+        color: #000000;
+        border-radius: 3px;
+        background: #D2E0E3
+    }
+
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+        color: #000000;
+        background: #D2E0E3
+    }
+
+    #mainNav.navbar-shrink {
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.5em
+    }
+}
+
+header.masthead {
+    padding: 5px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #000000;
+    background: #D2E0E3
+}
+
+
+header.masthead .intro-text .name {
+
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase
+}
+
+header.masthead .intro-text .skills {
+    padding: 75px;
+    font-size: 1em;
+    font-weight: 200
+}
+
+.img-fluid:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+@media (min-width: 768px) {
+    header.masthead {
+
+        padding-top: 250px;
+        padding-bottom: 300px
+    }
+
+    header.masthead .intro-text .name {
+        font-size: 2em
+    }
+
+    header.masthead .intro-text .skills {
+        font-size: 1.75em;
+
+    }
+}
+
