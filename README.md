@@ -12,11 +12,11 @@ The idea is to take the existing weekly Excel spreadsheets that Salesforce, a co
 
 
 ## Live Demo Setup
-# Clone Git Repository
+### Clone Git Repository
 ```Shell
 git clone https://github.com/jessicajourneycake/Route-to-Market-Simulations.git
 ```
-# Activate Virtual Environment
+### Activate Virtual Environment
 ```Shell
 cd <Project A>
 
@@ -24,18 +24,18 @@ python3 -m venv <Project A>
 
 pipenv shell
 ```
-# Install Requirements
+### Install Requirements
 ```Shell
 pip3 install -r ./requirements.txt
 ```
 
-# Run Server
+### Run Server
 ```Shell
 python manage.py migrate
 python manage.py runserver
 ```
 
-# Link to Live Demo
+### Link to Live Demo
 http://127.0.0.1:8000/home/
 
 
