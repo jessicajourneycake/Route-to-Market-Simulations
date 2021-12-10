@@ -3,9 +3,6 @@
 ## Short Description
 This repository is a tool for Sales or Product managers to automate and analyze sales pipeline progression data to determine a new product's Go-to-Market model. 
 
-## Link to Live Demo 
-
-
 ## Problem Statement
 A Go-to-Market model needs to be designed as an integrated system inclusive of considerations across marketing, business development, sales and business partners.  This requires a deep understanding of sales, marketing, offering and competitive issues that will impact the sales and marketing pipeline.  These insights are in the existing and historical pipeline data, but the data is often in an unstructed format (*i.e.,* Excel Spreadsheets, Weekly Reports).
 
@@ -13,9 +10,39 @@ A Go-to-Market model needs to be designed as an integrated system inclusive of c
 ## The Idea
 The idea is to take the existing weekly Excel spreadsheets that Salesforce, a common platorm used to track sales pipeline metrics, generates and translate those Excel Spreadsheets into actionable insights that Sales & Product Managers can use to plan incremental sales of the new product and remediate know issues impacting the pipeline (Not enough new leads? Deals not progressing quickly enough? Don't have access to the right decision makers?). This plan can continue to be adapted to reflect changing pipeline challenges. 
 
+
+## Live Demo Setup
+# Clone Git Repository
+```Shell
+git clone https://github.com/jessicajourneycake/Route-to-Market-Simulations.git
+```
+# Activate Virtual Environment
+```Shell
+cd <Project A>
+
+python3 -m venv <Project A>
+
+pipenv shell
+```
+# Install Requirements
+```Shell
+pip3 install -r ./requirements.txt
+```
+
+# Run Server
+```Shell
+python manage.py migrate
+python manage.py runserver
+```
+
+# Link to Live Demo
+http://127.0.0.1:8000/home/
+
+
 ## Solution Components
 
 ### Component 1 - Jupyter Notebooks for Data Cleansing & Preparation 
+
 
 
 
@@ -28,31 +55,5 @@ The UI for Product & Sales Managers is used to automate and analyze sales pipeli
 - Who is making the sales? 
 - I've adapted my GtM model. Are these changes effective?
 
-## Quickstart Guide
-
-1. Install Python for appropriate platform (macOS, Windows): https://www.python.org/downloads/
-
-2. Install pip
-```Shell
-python3 -m ensurepip
-```
-3. Install Jupyter Notebooks
-```Shell
-pip3 install jupyterlab
-```
-4. Clone Repository. Project folder will appear on your Desktop. 
-```Shell
-pip3 install -r requirements.txt
-```
-5. Install Visual Studio
-```Shell
-pip3 install -r requirements.txt
-```
-6. Open project in Visual Studio
-On the Visual Studio menu bar, choose File > Open > Folder, and then browse to the project folder location on your Desktop.
-8. Install Requirements 
-```Shell
-pip3 install -r requirements.txt
-```
-9. Load Excel Spreadsheets into "Data" folder. 
+## Full Setup (In Progress) 
 
