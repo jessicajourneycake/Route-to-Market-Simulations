@@ -49,6 +49,14 @@ python manage.py runserver
 ### Link to Live Demo
 http://127.0.0.1:8000/home/
 
+## Quickstart Guide for Local Setup
+[Local Setup Instructions](docs/Setup.md)
+
+## User Guide for Live Demo & Local Setup
+[User Guide](docs/UserGuide.md)
+
+
+
 
 
 
