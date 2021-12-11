@@ -52,15 +52,15 @@ http://127.0.0.1:8000/home/
 ## Live Demo Preview
 
 ### Analysis of Sales Pipeline Progression
-![alt text](https://github.com/Route-to-Market-Simulations/images/PipelineAnalysis.png)
+![alt text](https://github.com/jessicajourneycake/Route-to-Market-Simulations/blob/master/docs/PipelineAnalysis.png)
 
 ### Current Sales Pipeline Simulation
 
 #### Sales Pipeline Funnel
-![alt text](https://github.com/Route-to-Market-Simulations/images/PipelineFunnel.png)
+![alt text](https://github.com/jessicajourneycake/Route-to-Market-Simulations/blob/master/docs/PipelineFunnel.png)
 
 #### Sales Pipeline Stage Changes
-![alt text](https://github.com/Route-to-Market-Simulations/images/PipelineStages.png)
+![alt text](https://github.com/jessicajourneycake/Route-to-Market-Simulations/blob/master/docs/PipelineStages.png)
 
 ## User Guide for Live Demo & Local Setup
 [User Guide](docs/UserGuide.md)
