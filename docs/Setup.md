@@ -1,14 +1,18 @@
+# Local Setup
+
 ## Download Python
 Head to the following link to download Python for the appropriate platform (macOS/Windows): https://www.python.org/downloads/
 
-## Clone GitHub Project
+## Data Cleansing with Jupyter Notebooks
+### Clone GitHub Project
 Copy and paste the following commands into the Terminal. These commands download the R2M project folder onto your Desktop.
 ```Shell
 cd Desktop
 git clone git@github.ibm.com:DRT/R2M.git
 
 ```
-## Install Pip
+
+### Install Pip
 Copy and paste the following commands into the Terminal:
 ```Shell
 cd ..
@@ -16,22 +20,32 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
 
-## Install Jupyter Notebook
+### Install Jupyter Notebook
 Copy and paste the following command into the Terminal:
 ```Shell
 pip install jupyterlab
 
 ```
 
-## Run Jupyter Notebook
+### Prepare Excel Spreadsheets
+Ensure Sales Opportunity Progression Excel Spreadsheets downloaded from SalesForce include the following columns: Opp No, Sales Stage Name, Country, Opportunity Source, LIO Channel, Sector
+
+### Remove Existing Excel Spreadsheets in the "data" Folder 
+Open up the GitHub project folder that you cloned. In the "data" folder, remove all Excel Spreadsheets that you don't want to be used to analyze your Sales Pipeline.
+
+### Add Excel Spreadsheets to "data" Folder
+Add the Excel Spreadsheets you want to use in analyzing Sales Pipeline. 
+Rename the files to have the following format: Product_Pipe_MM-DD.xlsx 
+
+
+### Run Jupyter Notebook
 After you run this command, a browser will open with Jupyter Notebook.
 ```Shell
 jupyter-lab
-
 ```
 
-## Open R2M Jupyter Notebook
-In the Jupyter Notebook directory, click on Desktop -> R2M -> R2M_Simulation_Nov2021.ipynb.
+### Open "Engage->" Jupyter Notebook
+In the Jupyter Notebook directory, click on Desktop -> Route-to-Market-Simulations -> Engage->.ipynb.
 The Jupyter Notebook will open up in a new tab.
 
 ![alt text](https://github.ibm.com/DRT/R2M/blob/dev/docs/Jupyter_Notebook_Directory.png)
@@ -41,6 +55,7 @@ The Jupyter Notebook will open up in a new tab.
 Click on the "Restart" button in Jupyter Notebook.
 Then, click on the "Run" button.
 ![alt text](https://github.ibm.com/DRT/R2M/blob/dev/docs/Jupyter_Notebook.png)
+
 
 ## View Results
 The results are located in the R2M folder on your Desktop titled newOppCounts_clean.xlsx.
