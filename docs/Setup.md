@@ -114,4 +114,8 @@ Remove all Excel Spreadsheets from the "simulation" folder.
 
 Add all Excel Spreadsheets that were generated from the Jupyter Notebooks into the "simulation" folder.
 
-### 
+### Run Server to Generate Django Dashboard
+```Shell
+python manage.py migrate
+python manage.py runserver
+```
