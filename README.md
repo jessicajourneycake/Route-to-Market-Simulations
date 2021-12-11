@@ -60,7 +60,7 @@ http://127.0.0.1:8000/home/
 ## User Guide for Live Demo & Local Setup
 [User Guide](docs/UserGuide.md)
 
-## Quickstart Guide for Local Setup (In Progress)
+## Quickstart Guide for Local Setup
 [Local Setup Instructions](docs/Setup.md)
 
 
