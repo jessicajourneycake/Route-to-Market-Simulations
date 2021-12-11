@@ -49,11 +49,21 @@ python manage.py runserver
 ### Link to Live Demo
 http://127.0.0.1:8000/home/
 
-## Quickstart Guide for Local Setup
-[Local Setup Instructions](docs/Setup.md)
+## Live Demo Preview
+
+### Analysis of Sales Pipeline Progression
+![alt text](https://github.com/Route-to-Market-Simulations/images/PipelineAnalysis.png)
+
+### Current Sales Pipeline Simulation
+![alt text](https://github.com/Route-to-Market-Simulations/images/PipelineSimulation.png)
 
 ## User Guide for Live Demo & Local Setup
 [User Guide](docs/UserGuide.md)
+
+## Quickstart Guide for Local Setup (In Progress)
+[Local Setup Instructions](docs/Setup.md)
+
+
 
 
 
