@@ -55,7 +55,12 @@ http://127.0.0.1:8000/home/
 ![alt text](https://github.com/Route-to-Market-Simulations/images/PipelineAnalysis.png)
 
 ### Current Sales Pipeline Simulation
-![alt text](https://github.com/Route-to-Market-Simulations/images/PipelineSimulation.png)
+
+#### Sales Pipeline Funnel
+![alt text](https://github.com/Route-to-Market-Simulations/images/PipelineFunnel.png)
+
+#### Sales Pipeline Stage Changes
+![alt text](https://github.com/Route-to-Market-Simulations/images/PipelineStages.png)
 
 ## User Guide for Live Demo & Local Setup
 [User Guide](docs/UserGuide.md)
