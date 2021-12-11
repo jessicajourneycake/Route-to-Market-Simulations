@@ -31,12 +31,13 @@ pip install jupyterlab
 Ensure Sales Opportunity Progression Excel Spreadsheets downloaded from SalesForce include the following columns: Opp No, Sales Stage Name, Country, Opportunity Source, LIO Channel, Sector
 
 ### Remove Existing Excel Spreadsheets in the "data" Folder 
+
 Open up the GitHub project folder that you cloned. In the "data" folder, remove all Excel Spreadsheets that you don't want to be used to analyze your Sales Pipeline.
 
 ### Add Excel Spreadsheets to "data" Folder
 Add the Excel Spreadsheets you want to use in analyzing Sales Pipeline. 
 Rename the files to have the following format: Product_Pipe_MM-DD.xlsx 
-
+![alt text](https://github.com/jessicajourneycake/Route-to-Market-Simulations/blob/master/docs/R2M_data.png)
 
 ### Run Jupyter Notebook
 After you run this command, a browser will open with Jupyter Notebook.
@@ -48,21 +49,16 @@ jupyter-lab
 In the Jupyter Notebook directory, click on Desktop -> Route-to-Market-Simulations -> R2M_Engage->.ipynb.
 The Jupyter Notebook will open up in a new tab.
 
-![alt text](https://github.ibm.com/DRT/R2M/blob/dev/docs/Jupyter_Notebook_Directory.png)
-
-
 ### Run Jupyter Notebook
 Click on the "Restart" button in Jupyter Notebook.
 Then, click on the "Run" button.
 ![alt text](https://github.com/jessicajourneycake/Route-to-Market-Simulations/blob/master/docs/Jupyter_Notebook.png)
-
 
 ### View Results for Engage
 Ensure that the following Excel Spreadsheets were generated: 
 engage_location.xlsx
 engage_owner.xlsx
 engage_sector.xlsx
-
 
 ### Open & Run the Remaining Jupyter Notebooks
 Open the Remaining Jupyter Notebooks & Run Each Notebook:
