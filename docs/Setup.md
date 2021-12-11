@@ -54,7 +54,7 @@ The Jupyter Notebook will open up in a new tab.
 ### Run Jupyter Notebook
 Click on the "Restart" button in Jupyter Notebook.
 Then, click on the "Run" button.
-![alt text](https://github.com/jessicajourneycake/Route-to-Market-Simulations/docs/Jupyter_Notebook.png)
+![alt text](https://github.com/jessicajourneycake/Route-to-Market-Simulations/blob/master/docs/Jupyter_Notebook.png)
 
 
 ### View Results for Engage
